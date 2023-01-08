@@ -29,24 +29,6 @@
     color: white;
 }
 
-.mssn-box-title {
-    display: inline-block;
-    max-width: 70%;
-    max-height: 70%;
-    padding-bottom: 2%;
-    font-family: "Voyager";
-    color: white;
-}
-
-.mssn-box-content {
-    display: block;
-    max-width: 70%;
-    max-height: 70%;
-    padding-bottom: 2%;
-    font-family: "Voyager";
-    color: white;
-}
-
 .borderline-wwd {
     max-width: 50%;
     max-height: 100%;
@@ -79,16 +61,4 @@ a:link{
 }
 a:visited{
     color: rgb(227, 228, 225);
-}
-
-@keyframes entrycontent {
-    from {
-        margin-top: 10%;
-        opacity: 0;
-    }
-
-    to {
-        margin-top: 3%;
-        opacity: 1;
-    }
 }

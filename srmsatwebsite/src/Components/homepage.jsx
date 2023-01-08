@@ -1,4 +1,5 @@
 import './homepage.css'
+import Missions from './missions';
 import Whatwedo from './whatwedo';
 //import { useNavigate } from 'react-router-dom';
 function Homepage()
@@ -10,7 +11,11 @@ function Homepage()
                 <font size='+2' className='font-face-er-smol-text-redefine'>R e d e f i n i n g</font>
                 <font size='+2' className='font-face-er-smol-text-space'>S p a c e</font>
             </header> 
-            <Whatwedo></Whatwedo>
+            <body className='flexible'>
+                <Whatwedo></Whatwedo>
+                <Missions></Missions>
+            </body>
+            
         </div>
     );
 }
