@@ -56,7 +56,10 @@
     opacity: 1;
   }
 }
-
+button{
+  color: #000000;
+  
+}
 @keyframes entrysecondary {
   from {
     opacity: 0;

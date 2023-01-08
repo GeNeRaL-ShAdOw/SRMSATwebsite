@@ -6,12 +6,14 @@
 }
 
 .flexible {
+    max-height: 100%;
+    max-width: 100%;
     display: grid;
     margin-top: 3%;
-    margin-left: 11%;
+    margin-left: 12%;
     grid-template-columns: 60% 60%;
     column-gap: 0%;
-    grid-auto-rows: 80%;
+    grid-auto-rows: 50%;
     animation-name: entrycontent;
     animation-duration: 1.2s;
 }
@@ -85,6 +87,7 @@ a:link{
 a:visited{
     color: rgb(227, 228, 225);
 }
+
 @keyframes entrycontent {
     from {
         margin-top: 10%;
