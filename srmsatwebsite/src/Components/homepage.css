@@ -1,0 +1,39 @@
+.App-header {
+    background-color: #000000;
+    min-height: 20vh;
+}
+
+.App {
+    background-color: #000000;
+    min-height: 200vh;
+}
+
+.font-face-er-main-text {
+    display: flex;
+    font-family: "ExanRegular";
+    color: white;
+    margin-left: 42%;
+    padding-top: 4%;
+    animation-name: entrymain;
+    animation-duration: 1s;
+}
+
+.font-face-er-smol-text-redefine {
+    display: inline-flex;
+    font-family: "ExanRegular";
+    color: white;
+    margin-top: 1%;
+    margin-left: 39%;
+    animation-name: entrysecondary;
+    animation-duration: 1s;
+}
+
+.font-face-er-smol-text-space {
+    display: inline-flex;
+    font-family: "ExanRegular";
+    color: white;
+    margin-top: 1%;
+    margin-left: 2%;
+    animation-name: entrysecondary;
+    animation-duration: 1s;
+}

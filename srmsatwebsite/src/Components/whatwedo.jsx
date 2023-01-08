@@ -1,7 +1,10 @@
 import './whatwedo.css'
 
+//import { Router, Route } from 'react-router-dom';
+//import { BrowserRouter as  useNavigate } from 'react-router-dom';
 function Whatwedo()
 {
+    
     return (
         <div className='flexible'>
             <div className='borderline-wwd'>

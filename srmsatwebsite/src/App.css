@@ -1,13 +1,3 @@
-.App-header {
-  background-color: #000000;
-  min-height: 20vh;
-}
-
-.App {
-  background-color: #000000;
-  min-height: 200vh;
-}
-
 @font-face {
   font-family: "ExanRegular";
   src: local("ExanRegular"),
@@ -22,36 +12,6 @@
   font-weight: bold;
 }
 
-.font-face-er-main-text {
-  display: flex;
-  font-family: "ExanRegular";
-  color: white;
-  margin-left: 42%;
-  padding-top: 4%;
-  animation-name: entrymain;
-  animation-duration: 1s;
-}
-
-.font-face-er-smol-text-redefine {
-  display: inline-flex;
-  font-family: "ExanRegular";
-  color: white;
-  margin-top: 1%;
-  margin-left: 39%;
-  animation-name: entrysecondary;
-  animation-duration: 1s;
-}
-
-.font-face-er-smol-text-space {
-  display: inline-flex;
-  font-family: "ExanRegular";
-  color: white;
-  margin-top: 1%;
-  margin-left: 2%;
-  animation-name: entrysecondary;
-  animation-duration: 1s;
-}
-
 @keyframes entrymain {
   from {
     padding-top: 0%;
@@ -60,6 +20,16 @@
 
   to {
     padding-top: 4%;
+    opacity: 1;
+  }
+}
+
+@keyframes entrysecondary {
+  from {
+    opacity: 0;
+  }
+
+  to {
     opacity: 1;
   }
 }
@@ -79,14 +49,4 @@ button {
 button:hover {
   background-color: white;
   color: black;
-}
-
-@keyframes entrysecondary {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
 }
