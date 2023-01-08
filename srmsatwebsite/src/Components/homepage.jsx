@@ -12,10 +12,9 @@ function Homepage()
                 <font size='+2' className='font-face-er-smol-text-space'>S p a c e</font>
             </header> 
             <body className='flexible'>
-                <Whatwedo></Whatwedo>
-                <Missions></Missions>
+                <Whatwedo/>
+                <Missions/>
             </body>
-            
         </div>
     );
 }

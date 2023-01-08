@@ -15,3 +15,16 @@
     font-family: "Voyager";
     color: white;
 }
+
+.borderline-mssn {
+    max-width: 50%;
+    max-height: 100%;
+    border: 2px white solid !important;
+    border-radius: 11%;
+    text-align: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

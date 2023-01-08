@@ -10,6 +10,18 @@ button {
   border: 1px white solid !important;
 }
 
+.spacedlist {
+  padding-bottom: 2%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(227, 228, 225);
+}
+
 .flexible {
   max-height: 100%;
   max-width: 100%;

@@ -1,4 +1,5 @@
 import HomePage from './Components/homepage'
+import Registration from './Components/registration';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -9,6 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage/>} />
+        <Route path="/registration" element={<Registration/>} />
       </Routes>
     </Router>
   );
