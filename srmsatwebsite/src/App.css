@@ -15,6 +15,13 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Voyager";
+  src: local("Voyager"),
+    url("./fonts/Voyager.ttf") format("truetype");
+  font-weight: bold;
+}
+
 .font-face-er-main-text {
   display: flex;
   font-family: "ExanRegular";
@@ -56,10 +63,24 @@
     opacity: 1;
   }
 }
-button{
-  color: #000000;
-  
+
+button {
+  font-family: "Voyager";
+  max-width: 100%;
+  max-height: 100%;
+  height: 10%;
+  width: 40%;
+  color: white;
+  background-color: #000000;
+  margin-top: 1%;
+  border: 1px white solid !important;
 }
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
 @keyframes entrysecondary {
   from {
     opacity: 0;
