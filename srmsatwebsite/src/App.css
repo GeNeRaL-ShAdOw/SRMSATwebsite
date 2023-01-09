@@ -6,7 +6,7 @@
   width: 40%;
   color: white;
   background-color: transparent;
-  margin-top: 8%;
+  padding: 5%;
   border: 1px white solid !important;
 }
 
@@ -25,6 +25,9 @@
   width: 100%;
   height: 100%;
   color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "ExanRegular";
   background-color: transparent;
 }
 

@@ -28,3 +28,8 @@
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+.Strtbutton{
+    display: flex;
+    justify-content: center;
+}
