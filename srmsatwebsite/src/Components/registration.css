@@ -1,3 +1,12 @@
+.App2 {
+    background-color: #000000;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .font-face-er-main-text-register {
     display: flex;
     font-family: "ExanRegular";
@@ -27,3 +36,29 @@
     animation-name: entrysecondary;
     animation-duration: 1s;
 }
+
+form{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 8%;
+    left:20%;
+  }
+  
+  label{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-flex;
+    color: white;
+    font-family: 'Voyager';
+  }
+  
+  input{
+    flex:1;
+    margin-left: 1%;
+    color: white;
+    background-color: black;
+    font-family: 'Voyager';
+  }
