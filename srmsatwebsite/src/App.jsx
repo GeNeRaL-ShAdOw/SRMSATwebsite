@@ -1,4 +1,4 @@
-import HomePage from './Components/homepage'
+import HomePage from './Components/homepage';
 import Registration from './Components/registration';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

@@ -5,8 +5,8 @@ button {
   height: 10%;
   width: 40%;
   color: white;
-  background-color: #000000;
-  margin-top: 1%;
+  background-color: transparent;
+  margin-top: 8%;
   border: 1px white solid !important;
 }
 

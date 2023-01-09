@@ -1,11 +1,10 @@
-.App-header {
-    background-color: #000000;
-    min-height: 20vh;
-}
-
 .App {
     background-color: #000000;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
     min-height: 200vh;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .font-face-er-main-text {
