@@ -1,64 +1,81 @@
 .App2 {
-    background-color: #000000;
-    background-image: url('../images/background.jpg');
-    background-size: cover;
-    min-height: 100vh;
-    max-height: 100%;
-    max-width: 100%;
+  background-color: #000000;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .font-face-er-main-text-register {
-    display: flex;
-    font-family: "ExanRegular";
-    color: white;
-    margin-left: 33%;
-    padding-top: 4%;
-    animation-name: entrymain;
-    animation-duration: 1s;
+  display: flex;
+  font-family: "ExanRegular";
+  color: white;
+  margin-left: 33%;
+  padding-top: 4%;
+  animation-name: entrymain;
+  animation-duration: 1s;
 }
 
 .font-face-er-smol-text-join {
-    display: inline-flex;
-    font-family: "ExanRegular";
-    color: white;
-    margin-top: 1%;
-    margin-left: 38%;
-    animation-name: entrysecondary;
-    animation-duration: 1s;
+  display: inline-flex;
+  font-family: "ExanRegular";
+  color: white;
+  margin-top: 1%;
+  margin-left: 38%;
+  animation-name: entrysecondary;
+  animation-duration: 1s;
 }
 
 .font-face-er-smol-text-space {
-    display: inline-flex;
-    font-family: "ExanRegular";
-    color: white;
-    margin-top: 1%;
-    margin-left: 2%;
-    animation-name: entrysecondary;
-    animation-duration: 1s;
+  display: inline-flex;
+  font-family: "ExanRegular";
+  color: white;
+  margin-top: 1%;
+  margin-left: 2%;
+  animation-name: entrysecondary;
+  animation-duration: 1s;
 }
 
-form{
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    display: inline-block;
-    position: relative;
-    margin-top: 8%;
-    left:20%;
-  }
-  
-  label{
-    max-width: 100%;
-    max-height: 100%;
-    display: inline-flex;
-    color: white;
-    font-family: 'Voyager';
-  }
-  
-  input{
-    flex:1;
-    margin-left: 1%;
-    color: white;
-    background-color: black;
-    font-family: 'Voyager';
-  }
+form {
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  margin-top: 7%;
+  left: 20%;
+}
+
+label {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-flex;
+  color: white;
+  font-family: 'Voyager';
+}
+
+input {
+  flex: 1;
+  margin-left: 17%;
+  height: 12%;
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-family: 'Voyager';
+  width: 100% !important;
+}
+
+.errorfont {
+  font-family: 'Voyager';
+  color: white;
+}
+
+.submitbutton {
+  position: relative;
+  align-items: center;
+  left:50%;
+  max-width: 100%;
+  max-height: 100%;
+  height:50%;
+}
