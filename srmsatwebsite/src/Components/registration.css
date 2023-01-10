@@ -44,7 +44,7 @@ form {
   display: inline-block;
   position: relative;
   margin-top: 7%;
-  left: 20%;
+  left: 15%;
 }
 
 label {
@@ -56,8 +56,10 @@ label {
 }
 
 input {
-  flex: 1;
-  margin-left: 17%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: -1.2%;
+  margin-left: 40%;
   height: 12%;
   position: absolute;
   color: white;
@@ -67,6 +69,8 @@ input {
 }
 
 .errorfont {
+  max-width: 100%;
+  max-height: 100%;
   font-family: 'Voyager';
   color: white;
 }
@@ -74,8 +78,18 @@ input {
 .submitbutton {
   position: relative;
   align-items: center;
-  left:50%;
+  left:60%;
   max-width: 100%;
   max-height: 100%;
   height:50%;
+}
+
+.input-padding{
+  font-size: large;
+  padding-left:1%;
+}
+
+.animationforform{
+  animation-name: entrysecondary;
+  animation-duration: 1s;
 }
