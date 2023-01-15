@@ -16,16 +16,8 @@
 }
 
 .buttonwelcome {
-  font-family: "Voyager";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+  flex:1;
   color: white;
-  text-align: center;
   justify-content: center;
   font-family: "ExanRegular";
   background-color: transparent;
