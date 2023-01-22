@@ -1,0 +1,134 @@
+.App2 {
+  background-color: #000000;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+}
+
+.font-face-er-main-text-register {
+  display: flex;
+  font-family: "ExanRegular";
+  color: white;
+  margin-left: 33%;
+  padding-top: 4%;
+  animation-name: entrymain;
+  animation-duration: 1s;
+}
+
+.font-face-er-smol-text-join {
+  display: inline-flex;
+  font-family: "ExanRegular";
+  color: white;
+  margin-top: 1%;
+  margin-left: 38%;
+  animation-name: entrysecondary;
+  animation-duration: 1s;
+}
+
+.font-face-er-smol-text-space {
+  display: inline-flex;
+  font-family: "ExanRegular";
+  color: white;
+  margin-top: 1%;
+  margin-left: 2%;
+  animation-name: entrysecondary;
+  animation-duration: 1s;
+}
+
+form {
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  margin-top: 7%;
+  left: 15%;
+}
+
+label {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-flex;
+  color: white;
+  font-family: 'Voyager';
+}
+
+input {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: -1.2%;
+  margin-left: 40%;
+  height: 12%;
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-family: 'Voyager';
+  width: 100% !important;
+}
+
+.errorfont {
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Voyager';
+  color: white;
+}
+
+.submitbutton {
+  position: relative;
+  align-items: center;
+  left:60%;
+  max-width: 100%;
+  max-height: 100%;
+  height:50%;
+}
+
+.input-padding{
+  font-size: large;
+  padding-left:1%;
+}
+
+.animationforform{
+  animation-name: entrysecondary;
+  animation-duration: 1s;
+}
+
+@media (max-width:500px)and (min-width:320px) {
+
+  .font-face-er-main-text-register{
+    font-size: 25px;
+    margin-left: 21%;
+    padding-top: 15%;
+  }
+  .font-face-er-smol-text-join,.font-face-er-smol-text-space{
+           font-size: 12px;
+           margin-top: 5%;
+           
+  }
+  .font-face-er-smol-text-join{
+       margin-left: 28%;
+  }
+
+  .input-padding{
+    font-size: 15px
+  }
+  font{
+    font-size: 15px;
+    margin-right: 5%;
+   
+  }
+  .name-form,.email-form {
+      
+    margin-top: 20%;
+  }
+  .phone-form {
+    margin-top: 10%;
+  }
+
+  form {
+    margin-top: 18%;
+  }
+  
+}

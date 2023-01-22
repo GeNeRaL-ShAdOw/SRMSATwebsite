@@ -1,0 +1,38 @@
+.App {
+    background-color: #000000;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    min-height: 200vh;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.font-face-er-main-text {
+    display: flex;
+    font-family: "ExanRegular";
+    color: white;
+    margin-left: 42%;
+    padding-top: 4%;
+    animation-name: entrymain;
+    animation-duration: 1s;
+}
+
+.font-face-er-smol-text-redefine {
+    display: inline-flex;
+    font-family: "ExanRegular";
+    color: white;
+    margin-top: 1%;
+    margin-left: 39%;
+    animation-name: entrysecondary;
+    animation-duration: 1s;
+}
+
+.font-face-er-smol-text-space {
+    display: inline-flex;
+    font-family: "ExanRegular";
+    color: white;
+    margin-top: 1%;
+    margin-left: 2%;
+    animation-name: entrysecondary;
+    animation-duration: 1s;
+}

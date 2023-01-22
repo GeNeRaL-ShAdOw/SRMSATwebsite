@@ -1,0 +1,53 @@
+.WelcometoSRMSAT {
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100vh;
+}
+
+.font-face-er-main-welcome {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 1%;
+    animation-name: entrywelcome;
+    animation-duration: 1s;
+}
+
+.font-face-er-smol-text-click {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    color: white;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.font-face-er-smol-text-anywhere {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-flex;
+    font-family: "ExanRegular";
+    color: white;
+    padding-left: 1%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes blink {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
