@@ -36,21 +36,21 @@ function Registration()
         <form onSubmit={handleSubmit} className='animationforform'>
             <label >
                 <font size='+3'>NAME*:</font>
-                <input type="text" name="name" placeholder='THE NEXT ARYABHATTA?' style={{fontFamily: 'Voyager', fontSize: 'large', color: 'white'}} className='input-padding' value={name} onChange={(event) => setName(event.target.value.toUpperCase())} />
+                <input type="text" name="name" placeholder='ARYABHATTA?' style={{fontFamily: 'Voyager', fontSize: 'large', color: 'white'}} className='input-padding' value={name} onChange={(event) => setName(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
             <br/>
             <label>
                 <font size='+3'>EMAIL*:</font>
-                <input type="email" name="email" placeholder='HOW DO WE CONTACT YOU? ( SRM MAIL ID ONLY PLEASE.)' className='input-padding' value={email} onChange={(event) => setEmail(event.target.value.toUpperCase())} />
+                <input type="email" name="email" placeholder='SRM MAIL ID ONLY PLEASE.' className='input-padding' value={email} onChange={(event) => setEmail(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
             <br/>
             <label>
                 <font size='+3'>PHONE NUMBER:</font>
-                <input type="tel" name="phone" placeholder='NOT NECESSARY, BUT IT WOULD BE COOL IF YOU DID' className='input-padding' value={phone} onChange={(event) => setPhone(event.target.value.toUpperCase())} />
+                <input type="tel" name="phone" placeholder='PREFERABLE' className='input-padding' value={phone} onChange={(event) => setPhone(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
