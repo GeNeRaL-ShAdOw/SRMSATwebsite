@@ -106,3 +106,15 @@ a:visited {
     opacity: 1;
   }
 }
+
+@keyframes entrymain420 {
+  from {
+    padding-top: 0%;
+    opacity: 0;
+  }
+
+  to {
+    padding-top: 15%;
+    opacity: 1;
+  }
+}
