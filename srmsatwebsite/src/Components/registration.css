@@ -126,6 +126,13 @@ input {
     /* margin-right: 5%; */
   } 
 
+  .submitbutton {
+    position: relative;
+    align-items: center;
+    left: 50%;
+    border: white 1px !important;
+  }
+
   .name-form,
   .email-form {
     margin-top: 20%;
