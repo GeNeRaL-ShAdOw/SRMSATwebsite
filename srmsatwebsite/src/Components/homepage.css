@@ -2,7 +2,6 @@
     background-color: #000000;
     background-image: url('../images/background.jpg');
     background-size: cover;
-    min-height: 200vh;
     max-height: 100%;
     max-width: 100%;
 }
@@ -11,7 +10,7 @@
     display: flex;
     font-family: "ExanRegular";
     color: white;
-    margin-left: 42%;
+    margin-left: 41%;
     padding-top: 4%;
     animation-name: entrymain;
     animation-duration: 1s;
@@ -22,7 +21,7 @@
     font-family: "ExanRegular";
     color: white;
     margin-top: 1%;
-    margin-left: 39%;
+    margin-left: 38%;
     animation-name: entrysecondary;
     animation-duration: 1s;
 }

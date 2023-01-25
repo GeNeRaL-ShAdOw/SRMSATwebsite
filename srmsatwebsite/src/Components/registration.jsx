@@ -36,7 +36,7 @@ function Registration()
         <form onSubmit={handleSubmit} className='animationforform'>
             <label >
                 <font><p>NAME*:</p></font>
-                <input type="text" name="name" placeholder='ARYABHATTA?' style={{fontFamily: 'Voyager', fontSize: 'large', color: 'white'}} className='input-padding' value={name} onChange={(event) => setName(event.target.value.toUpperCase())} />
+                <input type="text" name="name" placeholder='ARYABHATTA?' className='input-padding' value={name} onChange={(event) => setName(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
@@ -58,7 +58,7 @@ function Registration()
             <button className='button1 submitbutton' type="submit"><font><p>SUBMIT</p></font></button>
             <br/>
             <br/>
-            {error && <p><font className='errorfont' size='+1'>{error}</font></p>}
+            {error && <p><font className='errorfont'>{error}</font></p>}
         </form>
     </div>)
 }

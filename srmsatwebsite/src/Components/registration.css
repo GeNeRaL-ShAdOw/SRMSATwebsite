@@ -62,7 +62,7 @@ input {
   max-height: 100%;
   margin-top: -1.2%;
   margin-left: 40%;
-  height: 12%;
+  height: 11%;
   position: absolute;
   color: white;
   background-color: black;
@@ -84,7 +84,6 @@ input {
 }
 
 .input-padding {
-  font-size: large;
   padding-left: 1%;
 }
 
