@@ -35,27 +35,27 @@ function Registration()
         <font size='+2' className='font-face-er-smol-text-space'>F O R C E</font>
         <form onSubmit={handleSubmit} className='animationforform'>
             <label >
-                <font size='+3'>NAME*:</font>
+                <font><p>NAME*:</p></font>
                 <input type="text" name="name" placeholder='ARYABHATTA?' style={{fontFamily: 'Voyager', fontSize: 'large', color: 'white'}} className='input-padding' value={name} onChange={(event) => setName(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
             <br/>
             <label>
-                <font size='+3'>EMAIL*:</font>
+                <font><p>EMAIL*:</p></font>
                 <input type="email" name="email" placeholder='SRM MAIL ID ONLY PLEASE.' className='input-padding' value={email} onChange={(event) => setEmail(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
             <br/>
             <label>
-                <font size='+3'>PHONE NUMBER:</font>
+                <font><p>PHONE NUMBER:</p></font>
                 <input type="tel" name="phone" placeholder='PREFERABLE' className='input-padding' value={phone} onChange={(event) => setPhone(event.target.value.toUpperCase())} />
             </label>
             <br/>
             <br/>
             <br/>
-            <button className='button1 submitbutton' placeholder='Not necessary, but would be cool.' type="submit"><font size='+2'>SUBMIT</font></button>
+            <button className='button1 submitbutton' type="submit"><font><p>SUBMIT</p></font></button>
             <br/>
             <br/>
             {error && <p><font className='errorfont' size='+1'>{error}</font></p>}
