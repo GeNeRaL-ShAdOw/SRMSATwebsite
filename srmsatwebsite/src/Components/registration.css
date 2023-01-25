@@ -96,8 +96,10 @@ input {
 @media (max-width:420px) and (min-width:360px) {
 
   .font-face-er-main-text-register {
+    display: flex;
+    justify-content: center;
     font-size: 150%;
-    margin-left: 10%;
+    margin-left: 3%;
     padding-top: 15%;
     animation-name: entrymain420;
   }
