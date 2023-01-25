@@ -23,6 +23,11 @@
   border: 1px white solid !important;
 }
 
+.button1-sign-me-up:hover {
+  background-color: white;
+  color: black;
+}
+
 .button1:hover {
   background-color: white;
   color: black;
