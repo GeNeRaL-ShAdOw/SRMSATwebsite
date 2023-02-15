@@ -1,5 +1,6 @@
 import './whatwedo.css'
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 function Whatwedo()
 {
     const navigate=useNavigate();
@@ -7,6 +8,11 @@ function Whatwedo()
     {
         navigate('/registration');
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, [navigate]);
+      
     return (
             <div className='borderline-wwd'>
                 <font size='+4' className="WWD-box-content-title">WHAT WE DO</font>
