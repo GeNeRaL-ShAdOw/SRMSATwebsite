@@ -30,6 +30,7 @@
 }
 
 .Strtbutton {
+    padding-top: 1%;
     display: flex;
     justify-content: center;
 }
@@ -47,5 +48,10 @@
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 2;
+    }
+    .Strtbutton {
+        display: flex;
+        justify-content: center;
+        padding-top: 8%;
     }
 }
