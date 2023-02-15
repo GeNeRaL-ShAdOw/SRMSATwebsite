@@ -35,3 +35,65 @@
     animation-name: entrysecondary;
     animation-duration: 1s;
 }
+
+.flexible {
+    max-height: 100%;
+    max-width: 100%;
+    display: grid;
+    margin-top: 3%;
+    margin-left: 12%;
+    grid-template-columns: 60% 60%;
+    column-gap: 0%;
+    grid-auto-rows: 50%;
+    animation-name: entrycontent;
+    animation-duration: 1.2s;
+}
+
+@media (max-width:420px) and (min-width:360px) {
+    .flexible {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+        animation-name: entrycontent;
+        animation-duration: 1.2s;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        padding: 0%;
+    }
+
+    .font-face-er-main-text {
+        font-size: xx-large;
+        display: flex;
+        font-family: "ExanRegular";
+        color: white;
+        margin-left: 21%;
+        margin-right: 20%;
+        padding-top: 4%;
+        animation-name: entrymain;
+        animation-duration: 1s;
+    }
+
+    .font-face-er-smol-text-redefine {
+        font-size: large;
+        display: inline-flex;
+        font-family: "ExanRegular";
+        color: white;
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        animation-name: entrysecondary;
+        animation-duration: 1s;
+    }
+
+    .font-face-er-smol-text-space {
+        font-size: large;
+        display: inline-flex;
+        font-family: "ExanRegular";
+        color: white;
+        margin-top: 1%;
+        padding-left: 1%;
+        animation-name: entrysecondary;
+        animation-duration: 1s;
+    }
+}

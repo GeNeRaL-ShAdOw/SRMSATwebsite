@@ -34,7 +34,7 @@
 }
 
 .buttonwelcome {
-  flex:1;
+  flex: 1;
   color: white;
   justify-content: center;
   font-family: "ExanRegular";
@@ -54,20 +54,6 @@ a:link {
 a:visited {
   color: rgb(227, 228, 225);
 }
-
-.flexible {
-  max-height: 100%;
-  max-width: 100%;
-  display: grid;
-  margin-top: 3%;
-  margin-left: 12%;
-  grid-template-columns: 60% 60%;
-  column-gap: 0%;
-  grid-auto-rows: 50%;
-  animation-name: entrycontent;
-  animation-duration: 1.2s;
-}
-
 
 @font-face {
   font-family: "ExanRegular";
@@ -136,5 +122,56 @@ a:visited {
   to {
     padding-top: 15%;
     opacity: 1;
+  }
+}
+
+@media (max-width:420px) and (min-width:360px) {
+
+  .font-face-er-main-text-register {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin-left: 3%;
+    padding-top: 15%;
+    animation-name: entrymain420;
+  }
+
+  .font-face-er-smol-text-join {
+    font-size: 90%;
+    padding-top: 3%;
+    margin-left: 16%;
+  }
+
+  p {
+    font-size: 15px;
+    margin-right: 5%;
+  }
+
+  .input-padding {
+    font-size: 15px
+  }
+
+  font {
+    font-size: 15px;
+  }
+
+  .submitbutton {
+    position: relative;
+    align-items: center;
+    left: 45%;
+    width: 58%;
+  }
+
+  .name-form,
+  .email-form {
+    margin-top: 20%;
+  }
+
+  .phone-form {
+    margin-top: 10%;
+  }
+
+  form {
+    margin-top: 18%;
   }
 }

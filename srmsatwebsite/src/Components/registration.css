@@ -81,6 +81,8 @@ input {
   position: relative;
   align-items: center;
   left: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .input-padding {
@@ -90,60 +92,4 @@ input {
 .animationforform {
   animation-name: entrysecondary;
   animation-duration: 1s;
-}
-
-@media (max-width:420px) and (min-width:360px) {
-
-  .font-face-er-main-text-register {
-    display: flex;
-    justify-content: center;
-    font-size: 150%;
-    margin-left: 3%;
-    padding-top: 15%;
-    animation-name: entrymain420;
-  }
-
-  .font-face-er-smol-text-join {
-    font-size: 90%;
-    padding-top: 3%;
-    margin-left: 16%;
-  }
-  p{
-    font-size: 15px;
-    margin-right: 5%;
-  }
-  .font-face-er-smol-text-space {
-    font-size: 90%;
-    padding-top: 3%;
-    margin-left: 5%;
-  }
-
-  .input-padding {
-    font-size: 15px
-  }
-
-  font {
-    font-size: 15px;
-    /* margin-right: 5%; */
-  } 
-
-  .submitbutton {
-    position: relative;
-    align-items: center;
-    left: 50%;
-    border: white 1px !important;
-  }
-
-  .name-form,
-  .email-form {
-    margin-top: 20%;
-  }
-
-  .phone-form {
-    margin-top: 10%;
-  }
-
-  form {
-    margin-top: 18%;
-  }
 }
