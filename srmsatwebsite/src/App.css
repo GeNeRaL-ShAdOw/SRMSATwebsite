@@ -174,4 +174,15 @@ a:visited {
   form {
     margin-top: 18%;
   }
+  @keyframes entrycontent {
+    from {
+      margin-top: 15%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-top: 10%;
+      opacity: 1;
+    }
+  }
 }
