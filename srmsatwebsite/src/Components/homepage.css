@@ -10,8 +10,8 @@
     display: flex;
     font-family: "ExanRegular";
     color: white;
-    margin-left: 41%;
-    padding-top: 4%;
+    margin-left: 40%;
+    padding-top: 1%;
     animation-name: entrymain;
     animation-duration: 1s;
 }
@@ -21,7 +21,7 @@
     font-family: "ExanRegular";
     color: white;
     margin-top: 1%;
-    margin-left: 38%;
+    margin-left: 36%;
     animation-name: entrysecondary;
     animation-duration: 1s;
 }
@@ -37,14 +37,13 @@
 }
 
 .flexible {
-    max-height: 100%;
+    height: 90%;
     max-width: 100%;
     display: grid;
     margin-top: 3%;
-    margin-left: 12%;
-    grid-template-columns: 60% 60%;
-    column-gap: 0%;
-    grid-auto-rows: 50%;
+    margin-left: 10%;
+    grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
     animation-name: entrycontent;
     animation-duration: 1.2s;
 }
@@ -67,8 +66,8 @@
         display: flex;
         font-family: "ExanRegular";
         color: white;
-        margin-left: 21%;
-        margin-right: 20%;
+        margin-left: 23%;
+        margin-right: 18%;
         padding-top: 4%;
         animation-name: entrymain;
         animation-duration: 1s;
@@ -80,7 +79,7 @@
         font-family: "ExanRegular";
         color: white;
         margin-top: 1%;
-        margin-left: 5%;
+        margin-left: 6%;
         margin-right: 5%;
         animation-name: entrysecondary;
         animation-duration: 1s;
